@@ -1,3 +1,5 @@
 // main.js
-import hello from './sub.js';
+import hello from './greet.js';
+
 hello();
+
