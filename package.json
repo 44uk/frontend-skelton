@@ -14,7 +14,7 @@
     "watch:css": "watch 'npm run build:css' src/styl/",
     "watch": "npm run watch:css & npm run watch:js & npm run server",
     "release": "npm run clear && npm run release:css & npm run release:js",
-    "server": "browser-sync start --server public/ --files 'public/**/*' --delay-reload 250",
+    "server": "browser-sync start --server public/ --files 'public/**/*' --reload-delay 250",
     "clear": "rm -f public/bundle.*",
     "start": "npm run watch"
   },
